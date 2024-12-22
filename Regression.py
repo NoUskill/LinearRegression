@@ -5,9 +5,7 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import make_interp_spline
 import warnings
 
-# Подавление предупреждений overflow и invalid
 
-#Реальные коефиценты
 class Data:
     def __init__(self,_seed,_num_samples):
         self.coefficients = [3.2, -1.5, 0.7, 2.8, -0.9]
